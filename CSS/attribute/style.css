@@ -1,0 +1,33 @@
+p{
+    color: darkblue;
+}
+
+p[title]{
+    border: 1px solid red;
+}
+
+p[title="first p"]{
+    background-color: beige;
+}
+
+p[title~="second"]{
+    background-color: blue;
+}
+
+a[href^=http]{
+    color: red;
+}
+
+a[href$="com"]{
+    color: aqua;
+}
+input[type="text"]{
+    display: block;
+    width: 100px;
+}
+
+input[type="button"]{
+    background: burlywood;
+    color: white;
+    padding: 5px 10px;
+}

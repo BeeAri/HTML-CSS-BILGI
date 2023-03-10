@@ -1,0 +1,7 @@
+.container div.box{
+    border: 1px solid red;
+}
+
+div>p{
+    border: 1px solid blue;
+}
