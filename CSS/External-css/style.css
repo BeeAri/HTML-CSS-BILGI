@@ -1,0 +1,14 @@
+a{
+    color: rgb(122, 168, 194);
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+}
+
+h1{
+    background-color: beige;
+    width: fit-content;
+    padding: 10px;
+}
