@@ -1,6 +1,6 @@
 #container{
     width: 1140px;
-    padding: 5px;
+    /* padding: 5px; */
     /* background-color: beige; */
 }
 
@@ -11,6 +11,9 @@
 }
 
 #others-post{
+    position: fixed;
+    top: 20px;
+    right: 0;
     width: 25%;
     float: left;
     /* background-color: brown; */
@@ -24,6 +27,18 @@
 }
 .author-jpg{
     width: 80px;
+}
+
+.blog-post{
+    position: relative;
+    right: 40px;
+}
+
+.date{
+    position: absolute;
+    right: 20px;
+    top: 0;
+
 }
 
 .tags{
