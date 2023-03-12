@@ -1,0 +1,12 @@
+p{
+    border: 1px solid gray;
+    overflow: auto;
+    padding: 5px;
+}
+
+img{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
