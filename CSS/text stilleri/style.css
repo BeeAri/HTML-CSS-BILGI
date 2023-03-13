@@ -1,0 +1,39 @@
+body{
+    width: 700px;
+    margin: 30px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+h2{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p{
+    line-height: 150%;
+    word-spacing: 3px;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 217, 255);
+}
+
+.second-p{
+column-count: 2;
+-webkit-column-count: 2; 
+/* opera chrome safari icin */
+-moz-column-count: 2;
+column-rule: 2px solid rgb(147, 144, 144,0.4);
+-webkit-column-rule: 2px solid rgb(147, 144, 144,0.4);
+-moz-column-rule: 2px solid rgb(147, 144, 144,0.4);
+text-align: justify;
+}
