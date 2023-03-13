@@ -1,5 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
 #container{
     width: 1140px;
+    margin: 20px auto;
     /* padding: 5px; */
     /* background-color: beige; */
 }
@@ -10,41 +25,87 @@
     float: left;
 }
 
-#others-post{
+/* #others-post{
     position: fixed;
     top: 20px;
     right: 0;
     width: 25%;
     float: left;
+    background-color: brown;
+} */
+
+#others-post{
+    width: 25%;
+    float: left;
     /* background-color: brown; */
+    /* background: white; */
+    /* margin-bottom: 15px; */
+    padding-left: 10px;
+    
+}
+
+#inner-others-post{
+    position: fixed;
+    top: 20px;
+    /* right: 0; */
+}
+
+.box{
+background: white;
+margin-bottom: 15px;
+padding: 20px;
 }
 
 .author-box{
     /* border: 1px solid red; */
-    padding: 5px;
+    border-top: 1px solid RGB(0, 0, 0,.125);
+    padding-top: 10px;
+    /* padding: 5px; */
     /* background-color: aqua; */
     margin-top: 15px;
 }
 .author-jpg{
     width: 80px;
+    /* background-color: red; */
+    border-radius: 50%;
+    float: left;
+    /* border-radius: 50%; daire olur */
+    
+}
+
+.author-text{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 .blog-post{
     position: relative;
-    right: 40px;
+    margin-right: 20px;
+    background: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.blog-post img{
+    width: 100%;
 }
 
 .date{
     position: absolute;
     right: 20px;
-    top: 0;
+    top: 10px;
 
 }
 
-.tags{
+.blog-text{
+    margin-top: 15px;
+}
+
+/* .tags{
     margin: 0;
     padding: 0;
-}
+} */
 
 .tags li{
     list-style: none;
