@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 7px 12px;
+    display: block;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+input[type="text"],textarea,select{
+    margin-bottom: 6px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-control:focus{
+    border-color: rgb(252, 177, 36);
+    outline: 0;
+}
+
+.btn{
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    border: 1px solid rgb(197, 129, 2);
+    width: 20%;
+}
+
+.btn:hover{
+    background-color: rgb(253, 178, 39);
+    border: 1px solid orange;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+}
+
+.col-75{
+    float: left;
+    width: 75%;
+}
+
+#form1{
+    margin-bottom: 40px;
+}
