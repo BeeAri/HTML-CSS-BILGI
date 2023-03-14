@@ -1,0 +1,57 @@
+body{
+    margin-top: 100px;
+    /* margin: 20px; */
+}
+
+.border{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .text{
+    display: none;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    z-index: 1;
+
+    position: absolute;
+
+}
+
+.top{
+    top:120%;
+    margin-left: -60px;
+    left: 50%;
+    
+}
+
+.right{
+    top: 3px;
+    left: 105%;
+}
+
+.bottom{
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.left{
+    top: 3px;
+    right: 105%;
+   
+}
+
+.tooltip:hover .text{
+    display: inline-block;
+}
