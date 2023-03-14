@@ -23,17 +23,19 @@ h2:hover{
 	color: cadetblue;
 }
 
-#container {
+.container {
 	width: 1000px;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
 #blog-post-container {
+	margin-top: 20px;
 	width: 75%;
 	float: left;
 }
 
 #other-posts {
+	margin-top: 20px;
 	width: 25%;
 	float: left;
 	padding-left: 20px;
@@ -122,11 +124,11 @@ h2:hover{
 	opacity: 0.6;
 }
 
-ul{
+.tags ul{
 	list-style-type: none;	
 }
 
-ul li{
+.tags ul li{
 	margin-bottom: 10px;
 }
 
@@ -163,4 +165,34 @@ ul li{
 .btn:hover{
 	background-color: rgb(100, 247, 198);
 	border-color: rgb(100, 247, 198);
+}
+
+.nav{
+	background-color: cadetblue;
+}
+
+.nav ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li{
+	list-style-type: none;
+}
+
+.nav li{
+float: left;
+}
+
+.nav li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	transition: background-color 0.3s linear;
+}
+
+.nav li a:hover{
+	background-color: rgb(100, 247, 198);
 }
