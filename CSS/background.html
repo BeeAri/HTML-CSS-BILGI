@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .header{
+            border: 1px solid gray;
+            /* background: red; */
+            background-image: linear-gradient(to left bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(jpg/box-modeli.JPG);
+            /* height: 200px; */
+            height: 95vh;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            clip-path: polygon(0 0,100% 0, 100% 100%, 0 85%);
+        }
+
+        .heading{
+            text-transform: uppercase;
+            color: white;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%,-50%);
+        }
+
+        .heading-main{
+            display: block;
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+
+        .heading-sub{
+            display: block;
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+<h1 class="heading">
+    <span class="heading-main">Lorem ipsum dolor sit.</span>
+    <span class="heading-sub">Lorem, ipsum dolor.</span>
+</h1>
+    </div>
+</body>
+</html>
