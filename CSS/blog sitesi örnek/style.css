@@ -15,11 +15,16 @@ body {
 h2 {
 	font-size: 30px;
 	margin-bottom: 20px;
-	font-weight: 500;
+	font-weight: 600;
+	transition: all 0.3s;
+}
+
+h2:hover{
+	color: cadetblue;
 }
 
 #container {
-	width: 1140px;
+	width: 1000px;
 	margin: 20px auto;
 }
 
@@ -31,19 +36,19 @@ h2 {
 #other-posts {
 	width: 25%;
 	float: left;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
-#author-box {}
+#author-box {
+
+}
 
 .box {
 	background: white;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	padding: 20px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	box-shadow: 0 0 0 1px rgba(0,0,0,.06);
-	
+	box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+	border-radius: 5px;
 }
 
 .blog-post {
@@ -51,13 +56,20 @@ h2 {
 }
 
 .blog-post img {
+	margin-bottom: 15px;
 	width: 100%;
+	transition: all 0.3s;
+}
+
+.blog-post img:hover{
+	opacity: 80%;
+	cursor: pointer;
 }
 
 .date {
 	position: absolute;
-	right: 50px;
-	top: 20px;
+	right: 20px;
+	bottom: 20px;
 	color: #aaa;
 	font-size: 12px;
 }
@@ -90,6 +102,7 @@ h2 {
 #author-box img {
 	border-radius: 50%;
 	float: left;
+	width: 10%;
 }
 
 .author-text {
@@ -124,11 +137,30 @@ ul li{
 }
 
 .tag{
-	background-color: #000;
-	color: #fff;
-	display: inline-block;
+	/* background-color: #000;
+	color: #fff; */
+	/* display: inline-block; */
 	padding-left: 8px;
 	padding-right: 8px;
 	text-align: center;
 	border-radius: 3px;
+}
+
+.btn{
+	display: inline-block;
+	font-size: 10px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: cadetblue;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition: background-color 0.3s linear;
+}
+
+.btn:hover{
+	background-color: rgb(100, 247, 198);
+	border-color: rgb(100, 247, 198);
 }
